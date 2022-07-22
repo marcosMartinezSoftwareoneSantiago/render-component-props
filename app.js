@@ -7,8 +7,8 @@ class App extends React.Component {
     return (
       <div>
         <h1>Hullo and, "Welcome to The Newzz," "On Line!"</h1>
-        <Greeting name="GitHub visitor" />
-        <article>Latest newzz: where is my phone?</article>
+        <Greeting name="Alison" signedIn={true} />
+        <article>Latest: where is my phone?</article>
       </div>
     );
   }
